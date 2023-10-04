@@ -1,6 +1,6 @@
 name: 'culturedays/cd-public-test-action'
 description: 'culturedays/cd-public-test-action'
-author: 'culturedays'
+author: 'bakerkretzmar'
 inputs:
   milliseconds:
     description: 'milliseconds'
