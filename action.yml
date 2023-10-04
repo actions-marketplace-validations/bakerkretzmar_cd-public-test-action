@@ -1,19 +1,14 @@
-name: 'The name of your action here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
-
-# Define your inputs here.
+name: 'culturedays/cd-public-test-action'
+description: 'culturedays/cd-public-test-action'
+author: 'culturedays'
 inputs:
   milliseconds:
-    description: 'Your input description here'
+    description: 'milliseconds'
     required: true
     default: '1000'
-
-# Define your outputs here.
 outputs:
   time:
-    description: 'Your output description here'
-
+    description: 'time'
 runs:
   using: node20
   main: dist/index.js
